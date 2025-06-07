@@ -1,16 +1,22 @@
-h1,
-span {
-    font-family: raleway;
+h1 {
+    color: white;
+    font-size: 96px;
+    margin: 180px 0 24px;
+     font-family: raleway;
 }
 
-h1 {
-    font-size: 96px;
+span {
+    color: white;
 }
 
 section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;   
     height: 100dvh;
     width: 100%;
-    background-image: url(../assets/img/1_hero/jpg/hero_bg.jpg);
+    background-image: url(../../../public/img/1_hero/jpg/hero_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;

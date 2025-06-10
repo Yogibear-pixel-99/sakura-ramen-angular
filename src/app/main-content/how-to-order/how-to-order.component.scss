@@ -1,0 +1,21 @@
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+
+    >div {
+        gap: 16px;
+    flex-direction: column;
+
+    >img {
+         width: 128px;
+    height: 128px;
+    }
+
+    >span {
+        text-align: center;
+    }
+
+    }
+}
+

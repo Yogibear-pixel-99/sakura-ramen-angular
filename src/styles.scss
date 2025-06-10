@@ -31,6 +31,28 @@ $H2-text-col: #9F0908;
 
 
 .rw-reg-txt {
-    font-family: raleway;
+    font-family: raleway, sans-serif;
     font-size: 24px;
+}
+
+.raleway {
+    font-family: raleway, sans-serif;
+}
+
+
+h2 {
+    color: #9F0908;
+    font-size: 80px;
+    text-align: center;
+}
+
+.eco-header-txt {
+    font-family: economica-bold, sans-serif;
+    font-size: 80px;
+}
+
+.flex-ctr-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

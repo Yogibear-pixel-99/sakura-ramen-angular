@@ -12,4 +12,4 @@ import { NavbarComponent } from './navbar/navbar.component';
     }
 )
 
-export class landingPageComponent {}
+export class LandingPageComponent {}

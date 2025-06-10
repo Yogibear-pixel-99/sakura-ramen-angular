@@ -5,18 +5,32 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+:root {
+$H2-text-col: #9F0908;
+}
+
 
 @font-face {
     font-family: raleway;
-    src: url(./app/assets/Raleway-VariableFont_wght.ttf);
+    src: url(../public/fonts/Raleway-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: economica-bold;
-    src: url(./app/assets/Economica-Bold.ttf);
+    src: url(../public/fonts/Economica-Bold.ttf);
 }
 
 @font-face {
     font-family: economica-regular;
-    src: url(./app/assets/Economica-Regular.ttf);
+    src: url(../public/fonts/Economica-Regular.ttf);
+}
+
+
+.rw-reg-txt {
+    font-family: raleway;
+    font-size: 24px;
 }

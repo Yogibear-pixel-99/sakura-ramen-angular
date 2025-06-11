@@ -1,0 +1,35 @@
+section {
+  background-color: #0a141e;
+  height: 130px;
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 160px;
+
+  > a {
+  > img {
+    height: 44px;
+  }
+}
+}
+
+.link-wrapper {
+  display: flex;
+  gap: 16px;
+
+  > nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+span {
+    color: white;
+}

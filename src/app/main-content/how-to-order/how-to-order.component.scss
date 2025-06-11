@@ -1,21 +1,28 @@
-
-.wrapper {
-    display: flex;
-    justify-content: space-evenly;
-
-    >div {
-        gap: 16px;
-    flex-direction: column;
-
-    >img {
-         width: 128px;
-    height: 128px;
-    }
-
-    >span {
-        text-align: center;
-    }
-
-    }
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin: 120px 0;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  > div {
+    gap: 16px;
+    flex-direction: column;
+    width: 256px;
+    margin-top: 56px;
+
+    > img {
+      width: 128px;
+      height: 128px;
+    }
+
+    > span {
+      text-align: center;
+    }
+  }
+}

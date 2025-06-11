@@ -1,17 +1,24 @@
 section {
   background-color: #0a141e;
   height: 130px;
-  margin-top: 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px 160px;
 
-  > a {
-  > img {
-    height: 44px;
+  > div {
+    > nav {
+      a {
+        color: white;
+      }
+    }
   }
-}
+
+  > a {
+    > img {
+      height: 44px;
+    }
+  }
 }
 
 .link-wrapper {
@@ -31,5 +38,5 @@ section {
 }
 
 span {
-    color: white;
+  color: white;
 }
